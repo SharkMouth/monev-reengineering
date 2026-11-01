@@ -1,0 +1,15 @@
+
+@import "tailwindcss";
+
+@source "../views/**/*.blade.php";
+@source "../js/**/*.js";
+
+@theme {
+    --color-primary: #337ab7;
+    --color-primary-dark: #286090;
+    --font-sans: Arial, Helvetica, sans-serif;
+}
+
+[x-cloak] {
+    display: none !important;
+}
